@@ -1,4 +1,4 @@
-# dev_ws — Autonomous Differential-Drive Robot (ROS 2 Humble)
+# Autonomous Differential-Drive Robot (ROS 2 Humble)
 
 A complete ROS 2 workspace for a two-wheeled differential-drive mobile robot that
 maps and autonomously navigates an indoor environment. It runs on real hardware

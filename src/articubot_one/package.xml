@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>articubot_one</name>
+  <version>1.0.0</version>
+  <description>
+    Differential-drive mobile robot for indoor autonomous navigation. Provides the
+    URDF/xacro description, ros2_control configuration, SLAM and Nav2 parameters,
+    and launch files for both real hardware (Arduino motor controller + RPLIDAR)
+    and Gazebo simulation. Derived from joshnewans/articubot_one.
+  </description>
+  <maintainer email="michdokun@gmail.com">AlphaYT7468</maintainer>
+  <author>Josh Newans</author>
+  <license>See README - upstream licence unspecified</license>
+
+  <url type="repository">https://github.com/AlphaYT7468/dev_ws</url>
+  <url type="website">https://articulatedrobotics.xyz/</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>ros2_control</exec_depend>
+  <exec_depend>ros2_controllers</exec_depend>
+  <exec_depend>diff_drive_controller</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>twist_mux</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>rplidar_ros</exec_depend>
+  <exec_depend>joy</exec_depend>
+  <exec_depend>teleop_twist_joy</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>gazebo_ros2_control</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
